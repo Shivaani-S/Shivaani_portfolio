@@ -1,1 +1,143 @@
+<!-- main.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png" alt="Spotify Logo">
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li class="active"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i> Search</a></li>
+                    <li><a href="#"><i class="fas fa-book"></i> Your Library</a></li>
+                </ul>
+            </nav>
+            <nav class="playlists">
+                <ul>
+                    <li><a href="#"><i class="fas fa-plus-square"></i> Create Playlist</a></li>
+                    <li><a href="#"><i class="fas fa-heart"></i> Liked Songs</a></li>
+                </ul>
+            </nav>
+        </div>
 
+        <!-- Main Content -->
+        <div class="main-content">
+            <header class="topbar">
+                <div class="arrows">
+                    <i class="fas fa-chevron-left"></i>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="user">
+                    <img src="usericon.png" alt="User">
+                    <span>Shivaani S</span>
+                </div>
+            </header>
+
+            <section class="greeting">
+                <h1>Good evening</h1>
+            </section>
+
+            <section class="playlists-grid">
+                <div class="playlist-card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02ff9ca10b55ce82ae553c8228" alt="Playlist">
+                    <h3>Today's Top Hits</h3>
+                </div>
+                <div class="playlist-card">
+                    <img src="rockclassic.png" alt="Playlist">
+                    <h3>Rock Classics</h3>
+                </div>
+                <div class="playlist-card">
+                    <img src="chillhits.png" alt="Playlist">
+                    <h3>Chill Hits</h3>
+                </div>
+                <div class="playlist-card">
+                    <img src="rapcaviar.png" alt="Playlist">
+                    <h3>RapCaviar</h3>
+                </div>
+                <div class="playlist-card">
+                    <img src="allout2010.png" alt="Playlist">
+                    <h3>All Out 2010s</h3>
+                </div>
+                <div class="playlist-card">
+                    <img src="megahit.png" alt="Playlist">
+                    <h3>Mega Hit Mix</h3>
+                </div>
+            </section>
+
+            <section class="section-title">
+                <h2>Made For You</h2>
+            </section>
+
+            <section class="cards-grid">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273ff9ca10b55ce82ae553c8228" alt="Album">
+                    <div class="play-button"><i class="fas fa-play"></i></div>
+                    <h4>Daily Mix 1</h4>
+                    <p>Artist1, Artist2, and more</p>
+                </div>
+                <!-- Repeat more cards as needed -->
+                <div class="card">
+                    <img src="arianagrande.png" alt="Album">
+                    <div class="play-button"><i class="fas fa-play"></i></div>
+                    <h4>Daily Mix 2</h4>
+                    <p>Artist3, Artist4, and more</p>
+                </div>
+                <div class="card">
+                    <img src="billie_eilish.png" alt="Album">
+                    <div class="play-button"><i class="fas fa-play"></i></div>
+                    <h4>Discover Weekly</h4>
+                    <p>Your weekly mixtape of fresh music</p>
+                </div>
+                <!-- Add more cards for a complete look -->
+            </section>
+        </div>
+
+        <!-- Bottom Player -->
+        <div class="player">
+            <div class="current-track">
+                <img src="ALbumcover.png" alt="Current Album">
+                <div class="track-info">
+                    <h4>Stuck with you</h4>
+                    <p>Ariana Grande,Justin Bieber</p>
+                </div>
+                <i class="far fa-heart"></i>
+            </div>
+
+            <div class="playback-controls">
+                <div class="controls">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+                    <i class="fas fa-play-circle big"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-redo"></i>
+                </div>
+                <div class="progress">
+                    <span>0:00</span>
+                    <div class="progress-bar">
+                        <div class="progress-filled"></div>
+                    </div>
+                    <span>3:45</span>
+                </div>
+            </div>
+
+            <div class="volume">
+                <i class="fas fa-volume-up"></i>
+                <div class="volume-bar">
+                    <div class="volume-filled"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
